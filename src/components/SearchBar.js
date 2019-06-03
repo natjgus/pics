@@ -2,7 +2,7 @@ import React from "react";
 
 class SearchBar extends React.Component {
   state = { term: "" };
-
+  //Made this an arrow function to allow for binding the callback
   onFormSubmit = event => {
       event.preventDefault();
 
